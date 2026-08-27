@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 170" width="640" height="170" role="img" aria-label="pureidle — the pipelines work, I drink the coffee">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 170" width="640" height="170" role="img" aria-label="pureidle — idle by design">
   <title>pureidle</title>
   <defs>
     <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
@@ -50,5 +50,5 @@
   <text x="186" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="54" letter-spacing="1">
     <tspan fill="#eceded" font-weight="600">pure</tspan><tspan fill="#8894a0">idle</tspan>
   </text>
-  <text x="190" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2.2" fill="#7f8081">THE PIPELINES WORK. I DRINK THE COFFEE.</text>
+  <text x="190" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="3" fill="#7f8081">IDLE BY DESIGN</text>
 </svg>
