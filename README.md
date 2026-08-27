@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="640" alt="pureidle — the coffee gets cold on purpose">
+  <img src="assets/banner.svg" width="640" alt="pureidle — the coffee is still hot">
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/telemetry-none-3c5f8a?style=flat-square&labelColor=1b2634" alt="telemetry: none">
 </p>
 
-I build security operations as software, so the parts that used to need a person watching them now run without one. The coffee going cold is the point.
+I build security operations as software, so the parts that used to need a person watching them now run without one. That's why the coffee is still hot.
 
 ## ☕ Now brewing
 
