@@ -53,7 +53,7 @@ If someone runs it as a service, the improvements come back. That's the only thi
 <details>
 <summary><strong>What I won't build</strong></summary>
 
-Anything that needs an account to be useful offline. Anything that treats an incident write-up as content to be generated rather than reasoning to be checked. Anything I'd have to run a telemetry pipeline to justify.
+Anything that needs an account to work offline, or that treats an incident write-up as text to be generated rather than reasoning to be checked.
 
 </details>
 
