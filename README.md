@@ -5,18 +5,66 @@
   </picture>
 </p>
 
-## Building quietly
+<p align="center">
+  <img src="https://img.shields.io/badge/roast-dark-e5ab5c?style=flat-square&labelColor=1b2634" alt="roast: dark">
+  <img src="https://img.shields.io/badge/brewing-IncidentCompanion-6d97c4?style=flat-square&labelColor=1b2634" alt="brewing: IncidentCompanion">
+  <img src="https://img.shields.io/badge/licence-AGPL--3.0-a87f57?style=flat-square&labelColor=1b2634" alt="licence: AGPL-3.0">
+  <img src="https://img.shields.io/badge/telemetry-none-3c5f8a?style=flat-square&labelColor=1b2634" alt="telemetry: none">
+</p>
 
-I build security operations as software. At a managed security service provider that means the whole stack in version control — the Azure platform, the detection content, the response automation — deployed by pipeline instead of assembled by hand. Rules get versioned, reviewed and released; they don't get clicked into a portal.
+I build security operations as software, so the parts that used to need a person watching them now run without one. The coffee going cold is the point.
 
-In the evenings I build the tooling I wished I'd had.
+## ☕ Now brewing
 
-Local-first, always: your data stays on your hardware. I don't want your telemetry.
+| Cup | What's in it |
+| --- | --- |
+| **The day pot** | Detections, response and platform in version control — versioned, reviewed, released, never clicked into a portal. |
+| **The evening cup** | **[IncidentCompanion](https://github.com/pureidle/IncidentCompanion)** — the RCA workspace I wished I'd had. Self-hosted, AGPL-3.0. |
+| **Cold brew** | Working out where an LLM actually helps in a SOC, and where it just adds a confident-sounding step. |
 
-### What I'm building
+## ⚙️ The grind
 
-**[IncidentCompanion](https://github.com/pureidle/IncidentCompanion)** — a self-hosted workspace for security incident investigation and root-cause analysis. Work the case, then the unglamorous half: customer RCA, and whichever of NIS2, DORA or GDPR applies. AGPL-3.0. In development.
+<p>
+  <img src="https://img.shields.io/badge/KQL-daily-6d97c4?style=flat-square&labelColor=1b2634" alt="KQL: daily">
+  <img src="https://img.shields.io/badge/PowerShell-daily-6d97c4?style=flat-square&labelColor=1b2634" alt="PowerShell: daily">
+  <img src="https://img.shields.io/badge/Terraform-%2B%20Terragrunt-a87f57?style=flat-square&labelColor=1b2634" alt="Terraform + Terragrunt">
+  <img src="https://img.shields.io/badge/Sentinel-Defender-e5ab5c?style=flat-square&labelColor=1b2634" alt="Sentinel and Defender">
+</p>
 
-### Elsewhere
+```mermaid
+flowchart LR
+    A[write it down] --> B[review it]
+    B --> C[version it]
+    C --> D[release it]
+    D --> E((it runs<br/>without me))
+    E -.-> F[the coffee<br/>gets cold]
+```
 
-[pureidle.dev](https://pureidle.dev/) · [LinkedIn](https://www.linkedin.com/in/bvansilfhout)
+## 🧾 House rules
+
+<details>
+<summary><strong>Why self-hosted, always</strong></summary>
+
+Your data stays on your hardware. I don't want your telemetry.
+
+No rented silos, no harvesting, no subscription wall. If a tool of mine needs to phone home to work, I've built it wrong.
+
+</details>
+
+<details>
+<summary><strong>Why AGPL-3.0</strong></summary>
+
+Because the failure mode for a self-hosted security tool is someone running it as a service and keeping the improvements. AGPL closes that loop: use it, change it, sell it — just don't make the changes disappear.
+
+</details>
+
+<details>
+<summary><strong>What I won't build</strong></summary>
+
+Anything that needs an account to be useful offline. Anything that treats an incident write-up as content to be generated rather than reasoning to be checked. Anything I'd have to run a telemetry pipeline to justify.
+
+</details>
+
+## ☕ Refills
+
+Sponsors keep the pot warm · [pureidle.dev](https://pureidle.dev/) · [LinkedIn](https://www.linkedin.com/in/bvansilfhout)
