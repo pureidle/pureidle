@@ -46,7 +46,7 @@ No rented silos, no harvesting, no subscription wall. If a tool of mine needs to
 <details>
 <summary><strong>Why AGPL-3.0</strong></summary>
 
-Because the failure mode for a self-hosted security tool is someone running it as a service and keeping the improvements. AGPL closes that loop: use it, change it, sell it — just don't make the changes disappear.
+If someone runs it as a service, the improvements come back. That's the only thing it's there for.
 
 </details>
 
