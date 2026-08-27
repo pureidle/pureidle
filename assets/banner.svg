@@ -1,5 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 170" width="640" height="170" role="img" aria-label="pureidle — the coffee gets cold on purpose">
   <title>pureidle</title>
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e1826"/>
+      <stop offset="1" stop-color="#0a1018"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.18" cy="0.05" r="0.75">
+      <stop offset="0" stop-color="#e5ab5c" stop-opacity="0.17"/>
+      <stop offset="1" stop-color="#e5ab5c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pool" cx="0.5" cy="1.15" r="0.6">
+      <stop offset="0" stop-color="#3c5f8a" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#3c5f8a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
   <style>
     .steam path { animation: drift 4.2s ease-in-out infinite; transform-origin: 50% 100%; opacity: 0; }
     .steam path:nth-child(2) { animation-delay: 1.4s; }
@@ -13,6 +27,11 @@
       .steam path { animation: none; opacity: .5; }
     }
   </style>
+
+  <rect width="640" height="170" rx="10" fill="url(#ground)"/>
+  <rect width="640" height="170" rx="10" fill="url(#pool)"/>
+  <rect width="640" height="170" rx="10" fill="url(#sun)"/>
+  <rect x="0.5" y="0.5" width="639" height="169" rx="9.5" fill="none" stroke="#22303f"/>
 
   <g transform="translate(26,16)">
     <g class="steam" fill="none" stroke="#eef3f8" stroke-width="3.2" stroke-linecap="round">
