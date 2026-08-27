@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 170" width="640" height="170" role="img" aria-label="pureidle — the coffee gets cold on purpose">
+  <title>pureidle</title>
+  <style>
+    .steam path { animation: drift 4.2s ease-in-out infinite; transform-origin: 50% 100%; opacity: 0; }
+    .steam path:nth-child(2) { animation-delay: 1.4s; }
+    .steam path:nth-child(3) { animation-delay: 2.8s; }
+    @keyframes drift {
+      0%   { transform: translateY(0)     scaleX(1);   opacity: 0; }
+      18%  {                                           opacity: .85; }
+      100% { transform: translateY(-26px) scaleX(1.3); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .steam path { animation: none; opacity: .5; }
+    }
+  </style>
+
+  <g transform="translate(26,16)">
+    <g class="steam" fill="none" stroke="#8fa8c0" stroke-width="3.2" stroke-linecap="round">
+      <path d="M63 44c-7-9 6-14 0-23"/>
+      <path d="M75 40c-8-11 7-16 0-26"/>
+      <path d="M87 44c-7-9 6-14 0-23"/>
+    </g>
+    <path d="M108 74h10a13 13 0 0 1 0 26h-10" fill="none" stroke="#3c5f8a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M35 62h74v40a19 19 0 0 1-19 19H54a19 19 0 0 1-19-19z" fill="#3c5f8a"/>
+    <path d="M35 62h74v6a37 8 0 0 1-74 0z" fill="#2a4665"/>
+    <ellipse cx="72" cy="62" rx="37" ry="8" fill="#e9edf1"/>
+    <path d="M72 74l16 6v12c0 10-7 17-16 20-9-3-16-10-16-20V80z" fill="#6d97c4"/>
+    <path d="M65 92l5 5 10-11" fill="none" stroke="#16212f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="186" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="54" letter-spacing="1">
+    <tspan fill="#16191c" font-weight="600">pure</tspan><tspan fill="#69737e">idle</tspan>
+  </text>
+  <text x="190" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2.6" fill="#6b6d6e">THE COFFEE GETS COLD ON PURPOSE</text>
+</svg>
