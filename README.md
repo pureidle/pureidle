@@ -31,14 +31,6 @@ I build security operations as software, so the parts that used to need a person
   <img src="https://img.shields.io/badge/Sentinel-Defender-e5ab5c?style=flat-square&labelColor=1b2634" alt="Sentinel and Defender">
 </p>
 
-```mermaid
-flowchart LR
-    A[write it down] --> B[review it]
-    B --> C[version it]
-    C --> D[release it]
-    D --> E((it runs<br/>without me))
-    E -.-> F[the coffee<br/>gets cold]
-```
 
 ## 🧾 House rules
 
