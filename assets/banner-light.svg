@@ -29,7 +29,7 @@
   </g>
 
   <text x="186" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="54" letter-spacing="1">
-    <tspan fill="#16191c" font-weight="600">pure</tspan><tspan fill="#69737e">idle</tspan>
+    <tspan fill="#16191c" font-weight="600">pure</tspan><tspan fill="#3c5f8a">idle</tspan>
   </text>
-  <text x="190" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2.6" fill="#6b6d6e">THE COFFEE GETS COLD ON PURPOSE</text>
+  <text x="190" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2.6" fill="#b5751f">THE COFFEE GETS COLD ON PURPOSE</text>
 </svg>
