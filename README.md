@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="640" alt="pureidle — the pipelines work, I drink the coffee">
+  <img src="assets/banner.svg?v=2" width="640" alt="pureidle — the pipelines work, I drink the coffee">
 </p>
 
 <p align="center">
