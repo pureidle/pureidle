@@ -16,7 +16,7 @@ I build security operations as software, so the parts that used to need a person
 | Cup | What's in it |
 | --- | --- |
 | **The day pot** | Detections, response and platform in version control — versioned, reviewed, released, never clicked into a portal. |
-| **The evening cup** | **[IncidentCompanion](https://github.com/pureidle/IncidentCompanion)** — the RCA workspace I wished I'd had. Self-hosted, AGPL-3.0. |
+| **The evening cup** | **[IncidentCompanion](https://github.com/pureidlelabs/IncidentCompanion)** — the RCA workspace I wished I'd had. Self-hosted, AGPL-3.0. |
 | **Cold brew** | Working out where an LLM actually helps in a SOC, and where it just adds a confident-sounding step. |
 
 ## ⚙️ The grind
